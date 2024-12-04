@@ -56,13 +56,6 @@
     transform: rotateZ(180deg) scaleX(-1);
   }
   /*ESTILOS GENERICOS*/
-
-  *{
-    margin: 0;
-    box-sizing: border-box;
-    
-  }
-
   h1,
   h2,
   h3{
@@ -141,7 +134,7 @@ header::before{
     max-width: 700px;
     padding: 80px 20px;
     text-align: center;
-    z-index: 0;
+    z-index: 1;
 }
 
 .header-content img{
